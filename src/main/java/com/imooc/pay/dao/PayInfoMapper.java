@@ -3,6 +3,7 @@ package com.imooc.pay.dao;
 import com.imooc.pay.pojo.PayInfo;
 
 public interface PayInfoMapper {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(PayInfo record);

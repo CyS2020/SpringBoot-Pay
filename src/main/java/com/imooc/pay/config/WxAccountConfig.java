@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "wx")
 @Data
 public class WxAccountConfig {
+
     private String appId;
 
     private String mchId;

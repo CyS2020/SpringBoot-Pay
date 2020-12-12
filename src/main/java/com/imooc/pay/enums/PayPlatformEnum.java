@@ -9,6 +9,7 @@ import lombok.Getter;
  */
 @Getter
 public enum PayPlatformEnum {
+
     // 1-支付宝,2-微信
     ALIPAY(1),
     WX(2);
