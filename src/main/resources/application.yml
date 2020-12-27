@@ -4,6 +4,11 @@ spring:
     username: root
     password: SUchunyang0511
     url: jdbc:mysql://127.0.0.1:3306/mall?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  rabbitmq:
+    addresses: 192.168.1.4
+    port: 5672
+    userName: guest
+    password: guest
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
