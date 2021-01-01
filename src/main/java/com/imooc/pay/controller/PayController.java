@@ -62,7 +62,7 @@ public class PayController {
 
     @GetMapping("/queryByOrderId")
     @ResponseBody
-    public PayInfo queryByOrderId(@RequestParam("orderId") String orderId){
+    public PayInfo queryByOrderId(@RequestParam String orderId) {
         log.info("查询支付记录...");
         return payService.queryByOrderId(orderId);
     }
